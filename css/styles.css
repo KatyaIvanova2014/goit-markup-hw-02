@@ -19,7 +19,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.active-link:active {
+.menu-link:hover,
+.menu-link:focus {
   color: #2196f3;
 }
 
@@ -42,9 +43,15 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-
+.contact-phone-number:hover,
+.contact-phone-number:focus {
+  color: #2196f3;
+}
 /*============ /HEADER ============*/
 /*============ HERO ============*/
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -63,6 +70,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
 }
 .modal-btn:hover,
 .modal-btn:focus {
@@ -131,6 +140,10 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-list-item:hover,
+.contact-list-item:focus {
+  color: #2196f3;
+}
 .location {
   color: #ffffff;
 }
@@ -163,3 +176,13 @@ body {
   color: #757575;
 }
 /*============ /COMPONENTS ============*/
+/*============ FOOTER ============*/
+footer {
+  background-color: #2f303a;
+}
+/*============ /FOOTER ============*/
+/*============ PORTFOLIO ============*/
+.title-projects {
+  visibility: hidden;
+}
+/*============ /PORTFOLIO ============*/
