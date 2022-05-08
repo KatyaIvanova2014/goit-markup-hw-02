@@ -23,6 +23,9 @@ body {
 .menu-link:focus {
   color: #2196f3;
 }
+.accent {
+  color: #2196f3;
+}
 
 .contact-mail {
   font-weight: 500;
